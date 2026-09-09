@@ -5,6 +5,7 @@
 | 1.02 | 2026-09-09 | Film YouTube osadzony na stronie, wyciszony, automatycznie odtwarzany i zapętlony. |
 | 1.03 | 2026-09-09 | Porównanie z Shopify, autorskie logo w nagłówku oraz widoczne linki do Instagrama i Facebooka. |
 | 1.04 | 2026-09-09 | Usunięcie newslettera, kontakt wyłącznie przez e-mail oraz migracja stron Kontakt i Partnerzy bez formularza. |
+| 1.06 | 2026-09-09 | Kontakt WhatsApp, telefon, e-mail i social media oraz strona Oferta z PayPal. |
 | 1.05 | 2026-09-09 | Dodane lokalne strony Warunki świadczenia usług i Polityka zwrotów; stopka prowadzi do lokalnych wersji. |
 | 1.00 | 2026-09-09 | Pierwsza statyczna strona główna Wegańskiego Trenera, oryginalne media Shopify, wskazany PayPal, dokumentacja AI oraz GitHub Pages. |
 
