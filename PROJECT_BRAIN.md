@@ -1,11 +1,11 @@
-# PROJECT_BRAIN — Wegański Trener
+# PROJECT_BRAIN — MikeMilekFitness
 ## Cel i zakres
 Migracja mikemilekfitness.com z Shopify do mieszkomilek/strona-mikemilekfitness. Pierwszy etap: samodzielna strona główna, oryginalne media, wspólny link PayPal, GitHub Pages i dokumentacja dla AI.
 Użytkownik wskazał repo strona-ewamilek wyłącznie jako wzór organizacji i źródło istniejącego linku PayPal. Kod, treści i obrazy tego repo nie zostały przeniesione.
 
 ## Źródła i wygląd
 Odczyt Shopify oraz publicznej strony: 2026-09-09. Czarne tło, biała typografia Archivo Narrow, logo, szerokie zdjęcie Mike’a, opis „Czym się wyróżniam ?”, siedem kart oferty, film i stopka.
-Treść opisu i misji zachowana. Ceny oraz kolejność ofert odpowiadają źródłu z dnia odczytu; nie są synchronizowane na żywo.
+Treść opisu i misji zaktualizowana w wersji 1.01 na polecenie użytkownika. Ceny oraz kolejność ofert odpowiadają źródłu z dnia odczytu; nie są synchronizowane na żywo.
 
 ## Struktura
 `templates/index.html` — układ strony; `data/home.json` — treść; `data/catalog.json` — oferta; `site.config.json` — domeny, płatność, SEO; `styles.css`, `mobile-home.css`, `assets/js/core.js` — wygląd i menu.
@@ -35,3 +35,6 @@ Wersje aktualizowane jawnie w version.txt i VERSION_HISTORY.md. Po zmianie gener
 
 ## Stan przekazania
 Dostęp do zapisu GitHub został przywrócony. Wersja 1.00 przygotowana do pierwszego wdrożenia; lokalny build i QA przeszły poprawnie. Użytkownik potwierdził ustawienie GitHub Actions w Pages.
+
+## Branding od wersji 1.01
+Główna marka to MikeMilekFitness, zamiast Wegański Trener. Nowy tekstowy logotyp i favicon M; oryginalne pliki mediów pozostają zachowane. Weganizm przedstawiamy jako wyrazistą ciekawostkę osobistą w limonkowym bloku pod hero. Użytkownik podał: 40 lat, wegetarianizm od 2017, weganizm od 2018 i nadal świetna forma. Wiek jest deklaracją na dzień 2026-09-09, nie obliczamy daty urodzenia ani nie aktualizujemy go automatycznie. Opisy produktów roślinnych i oryginalne okładki pozostają zgodne z ich zawartością. Wszystkie płatności pozostają bez zmian. Wersja 1.00 została pomyślnie opublikowana na Pages.

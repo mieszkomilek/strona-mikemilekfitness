@@ -1,4 +1,4 @@
-# Wegański Trener — Mike Miłek Fitness
+# MikeMilekFitness — Mike Miłek Fitness
 Statyczna wersja strony głównej mikemilekfitness.com, przygotowana dla GitHub Pages.
 
 ## Start pracy z AI

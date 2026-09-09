@@ -8,7 +8,7 @@ def build():
  for p in catalog:
   t=escape(p['title']);u=escape(c['paypalUrl']);price=('Od ' if p['priceFrom'] else '')+f"{float(p['price']):.2f}".replace('.',',')+' zł PLN'
   cards.append(f'<article class="product-card"><a class="product-image" data-sales-link href="{u}" aria-label="{t} — płatność PayPal"><img src="{escape(p["image"])}" width="600" height="600" loading="lazy" alt="{t}"></a><h3><a data-sales-link href="{u}">{t}</a></h3><p class="price">{price}</p><a class="buy" data-sales-link href="{u}" aria-label="{t} — przejdź do PayPal">Przejdź do PayPal</a></article>')
- values={'BASE_URL':c['baseUrl'],'EMAIL':c['email'],'VERSION':v,'ROBOTS':'index,follow' if c['indexingEnabled'] else 'noindex,follow','TITLE':h['title'],'SUBTITLE':h['subtitle'],'INTRO_HEADING':h['introHeading'],'OFFERS_HEADING':h['offersHeading'],'MISSION':h['mission'],'VIDEO_URL':h['videoUrl']}
+ values={'BASE_URL':c['baseUrl'],'EMAIL':c['email'],'VERSION':v,'ROBOTS':'index,follow' if c['indexingEnabled'] else 'noindex,follow','TITLE':h['title'],'SUBTITLE':h['subtitle'],'INTRO_HEADING':h['introHeading'],'OFFERS_HEADING':h['offersHeading'],'MISSION':h['mission'],'VIDEO_URL':h['videoUrl'],'FACT_INTRO':h['factIntro'],'FACT_HEADING':h['factHeading'],'FACT_TEXT':h['factText']}
  page=(R/'templates/index.html').read_text()
  for k,val in values.items():page=page.replace('{{'+k+'}}',escape(val,quote=True))
  page=page.replace('{{INTRO_HTML}}',h['introHtml']).replace('{{PRODUCTS}}','\n'.join(cards));assert '{{' not in page

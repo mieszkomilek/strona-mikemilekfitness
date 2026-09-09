@@ -2,7 +2,7 @@
 - HTML, CSS i niewielkie moduły JavaScript; Python standard library do generowania i kontroli.
 - Jedno źródło konfiguracji: site.config.json. Dane treści i katalogu w data/.
 - Szablony w templates/, media w assets/, narzędzia w scripts/, jeden deployment w .github/workflows/.
-- Teksty, fotografie i tożsamość wyłącznie marki Wegański Trener.
+- Teksty, fotografie i tożsamość wyłącznie marki MikeMilekFitness.
 - Jeden H1, opis, canonical i poprawne kotwice; noindex na etapie podglądu.
 - Nawigacja działa bez JS; menu mobilne obsługuje klawiaturę i Escape; focus jest widoczny.
 - Lokalne fonty i obrazy, wymiary zdjęć, lazy loading poza głównym zdjęciem.
