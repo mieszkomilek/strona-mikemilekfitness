@@ -47,3 +47,6 @@ Główna marka to MikeMilekFitness, zamiast Wegański Trener. Nowy tekstowy logo
 
 ## Decyzje wersji 1.06
 Kontakt: WhatsApp +48 606 708 185, e-mail, Instagram i Facebook. Formularza nie ma. Dodano oferta.html z PayPal.
+
+## Decyzje wersji 1.07
+Link Kontakt w nagłówku prowadzi do `kontakt.html`. Dodano lokalne `prywatnosc.html` i `wysylka.html`; kontakt i płatności pozostają bez zmian.
