@@ -1,1 +1,1 @@
-window.SITE_VERSION = "1.03";
+window.SITE_VERSION = "1.04";
