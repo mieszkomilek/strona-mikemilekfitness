@@ -20,7 +20,7 @@ def build():
  dest=R/'_site'
  if dest.exists():shutil.rmtree(dest)
  dest.mkdir()
- for name in ['index.html','styles.css','mobile-home.css','video.css','robots.txt','sitemap.xml','manifest.webmanifest','version.txt','.nojekyll']:shutil.copy2(R/name,dest/name)
+ for name in ['index.html','styles.css','mobile-home.css','video.css','social.css','robots.txt','sitemap.xml','manifest.webmanifest','version.txt','.nojekyll']:shutil.copy2(R/name,dest/name)
  shutil.copytree(R/'assets',dest/'assets')
  print(f'Built version {v}: {len(catalog)} offers')
 if __name__=='__main__':build()

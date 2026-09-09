@@ -1,0 +1,1 @@
+.social-links{display:flex;gap:16px;margin-left:auto}.social-links a{font-size:14px;text-decoration:none;color:var(--muted)}.social-links a:hover{text-decoration:underline;color:#fff}@media(max-width:989px){.social-links{display:none}}
