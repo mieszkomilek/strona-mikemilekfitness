@@ -50,3 +50,6 @@ Kontakt: WhatsApp +48 606 708 185, e-mail, Instagram i Facebook. Formularza nie 
 
 ## Decyzje wersji 1.07
 Link Kontakt w nagłówku prowadzi do `kontakt.html`. Dodano lokalne `prywatnosc.html` i `wysylka.html`; kontakt i płatności pozostają bez zmian.
+
+## Decyzje wersji 1.08
+Każda z siedmiu ofert ma własną podstronę opartą na handle produktu. Karty na stronie głównej prowadzą do szczegółów, a osobny przycisk prowadzi do wspólnego PayPal. Opisy są celowo ogólne do czasu potwierdzenia pełnych treści i dostawy cyfrowej.

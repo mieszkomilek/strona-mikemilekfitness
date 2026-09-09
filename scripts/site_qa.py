@@ -13,7 +13,7 @@ def check():
  assert sum(t=='h1' for t,a in p.tags)==1 and '<title>' in text and 'name="description"' in text
  ids=[a['id'] for t,a in p.tags if 'id' in a];assert len(ids)==len(set(ids))
  sales=[a['href'] for t,a in p.tags if 'data-sales-link' in a]
- assert len(sales)==3*len(catalog) and all(u==c['paypalUrl'] for u in sales)
+ assert len(sales)==len(catalog) and all(u==c['paypalUrl'] for u in sales)
  assert not re.search(r'href=["\'][^"\']*(?:/products/|/cart|/checkout)',text)
  for tag,a in p.tags:
   if tag=='img':assert 'alt' in a and 'width' in a and 'height' in a

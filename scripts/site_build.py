@@ -7,7 +7,8 @@ def build():
  c=json.loads((R/'site.config.json').read_text());h=json.loads((R/'data/home.json').read_text());catalog=json.loads((R/'data/catalog.json').read_text());v=(R/'version.txt').read_text().strip();cards=[]
  for p in catalog:
   t=escape(p['title']);u=escape(c['paypalUrl']);price=('Od ' if p['priceFrom'] else '')+f"{float(p['price']):.2f}".replace('.',',')+' zł PLN'
-  cards.append(f'<article class="product-card"><a class="product-image" data-sales-link href="{u}" aria-label="{t} — płatność PayPal"><img src="{escape(p["image"])}" width="600" height="600" loading="lazy" alt="{t}"></a><h3><a data-sales-link href="{u}">{t}</a></h3><p class="price">{price}</p><a class="buy" data-sales-link href="{u}" aria-label="{t} — przejdź do PayPal">Przejdź do PayPal</a></article>')
+  detail=escape(p['handle']+'.html')
+  cards.append(f'<article class="product-card"><a class="product-image" href="{detail}" aria-label="{t} — szczegóły oferty"><img src="{escape(p["image"])}" width="600" height="600" loading="lazy" alt="{t}"></a><h3><a href="{detail}">{t}</a></h3><p class="price">{price}</p><a class="buy" data-sales-link href="{u}" aria-label="{t} — przejdź do PayPal">Przejdź do PayPal</a></article>')
  values={'BASE_URL':c['baseUrl'],'EMAIL':c['email'],'VERSION':v,'ROBOTS':'index,follow' if c['indexingEnabled'] else 'noindex,follow','TITLE':h['title'],'SUBTITLE':h['subtitle'],'INTRO_HEADING':h['introHeading'],'OFFERS_HEADING':h['offersHeading'],'MISSION':h['mission'],'VIDEO_URL':h['videoUrl'],'FACT_INTRO':h['factIntro'],'FACT_HEADING':h['factHeading'],'FACT_TEXT':h['factText']}
  page=(R/'templates/index.html').read_text()
  for k,val in values.items():page=page.replace('{{'+k+'}}',escape(val,quote=True))
@@ -20,7 +21,7 @@ def build():
  dest=R/'_site'
  if dest.exists():shutil.rmtree(dest)
  dest.mkdir()
- for name in ['index.html','kontakt.html','partnerzy.html','warunki.html','zwroty.html','prywatnosc.html','wysylka.html','styles.css','mobile-home.css','video.css','social.css','robots.txt','sitemap.xml','manifest.webmanifest','version.txt','.nojekyll']:shutil.copy2(R/name,dest/name)
+ for name in ['index.html','kontakt.html','partnerzy.html','warunki.html','zwroty.html','prywatnosc.html','wysylka.html'] + [p['handle']+'.html' for p in catalog] + ['styles.css','mobile-home.css','video.css','social.css','robots.txt','sitemap.xml','manifest.webmanifest','version.txt','.nojekyll']:shutil.copy2(R/name,dest/name)
  shutil.copytree(R/'assets',dest/'assets')
  print(f'Built version {v}: {len(catalog)} offers')
 if __name__=='__main__':build()
