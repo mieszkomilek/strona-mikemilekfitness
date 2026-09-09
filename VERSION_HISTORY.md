@@ -1,0 +1,6 @@
+# Historia wersji
+| Wersja | Data | Opis |
+| --- | --- | --- |
+| 1.00 | 2026-09-09 | Pierwsza statyczna strona główna Wegańskiego Trenera, oryginalne media Shopify, wskazany PayPal, dokumentacja AI oraz GitHub Pages. |
+
+Punkt przywracania: commit zawierający wersję. Przywracanie przez nowy commit/revert, bez przepisywania historii main. Nie używać numeracji repo Ewy.

@@ -1,0 +1,65 @@
+[
+  {
+    "id": "gid://shopify/Product/8070641418505",
+    "title": "Dieta - Autorskie Wegańskie Przepisy 400kcal (ebook)",
+    "handle": "weganskie-przepisy",
+    "price": "35.0",
+    "currency": "PLN",
+    "priceFrom": false,
+    "image": "assets/shopify/products-WeganskiTrener-WeganskiePosilki-Ponad30najlepszychroslinnychautorskichprzepisowpo400kcal_1.png"
+  },
+  {
+    "id": "gid://shopify/Product/8071250313481",
+    "title": "Dieta - Spersonalizowany plan na modelowanie sylwetki",
+    "handle": "dieta-spersonalizowany-plan-na-modelowanie-sylwetki-ebook-video",
+    "price": "125.0",
+    "currency": "PLN",
+    "priceFrom": false,
+    "image": "assets/shopify/products-320476902_534190885319702_178595481274506831_n.jpg"
+  },
+  {
+    "id": "gid://shopify/Product/8071137263881",
+    "title": "Karta Prezentowa Wegański Trener",
+    "handle": "karta-prezentowa-weganski-trener",
+    "price": "10.0",
+    "currency": "PLN",
+    "priceFrom": true,
+    "image": "assets/shopify/products-MIKE-3.jpg"
+  },
+  {
+    "id": "gid://shopify/Product/8071957774601",
+    "title": "Konsultacje i Prowadzenie online",
+    "handle": "prowadzenie-przez-internet",
+    "price": "80.0",
+    "currency": "PLN",
+    "priceFrom": true,
+    "image": "assets/shopify/products-image.jpg"
+  },
+  {
+    "id": "gid://shopify/Product/8071176618249",
+    "title": "Trening - Autorskie ćwiczenia na modelowanie sylwetki (ebook,video)",
+    "handle": "barki-autorskie-cwiczenia-ebook-video",
+    "price": "35.0",
+    "currency": "PLN",
+    "priceFrom": true,
+    "image": "assets/shopify/products-MIKE-2.jpg"
+  },
+  {
+    "id": "gid://shopify/Product/8072377172233",
+    "title": "Trening - Personalny na siłowni",
+    "handle": "trening-personalny-na-silowni",
+    "price": "125.0",
+    "currency": "PLN",
+    "priceFrom": true,
+    "image": "assets/shopify/products-MIKE-1.jpg"
+  },
+  {
+    "id": "gid://shopify/Product/8071239401737",
+    "title": "Trening - Spersonalizowany plan na modelowanie sylwetki",
+    "handle": "trening-spersonalizowany-plan-modelowanie-sylwetki-ebook-video",
+    "price": "35.0",
+    "currency": "PLN",
+    "priceFrom": true,
+    "image": "assets/shopify/products-MIKE-4.jpg"
+  }
+]

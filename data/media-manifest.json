@@ -1,0 +1,211 @@
+{
+  "source": "https://mikemilekfitness.com/",
+  "retrievedAt": "2026-09-09",
+  "assets": [
+    {
+      "source": "https://cdn.shopify.com/s/files/1/0660/2499/7129/files/black.png?v=1672065764",
+      "path": "assets/shopify/files-black.png",
+      "kind": "image",
+      "shopifyId": "gid://shopify/MediaImage/34773757821193",
+      "width": 1384,
+      "height": 1668,
+      "bytes": 164095,
+      "sha256": "dabfb6985dd7b73037e57a13b341da79cd10e43d1ff89bd2a76fbc76970fda7f"
+    },
+    {
+      "source": "https://cdn.shopify.com/s/files/1/0660/2499/7129/products/WeganskiTrener-WeganskiePosilki-Ponad30najlepszychroslinnychautorskichprzepisowpo400kcal_1.png?v=1672068086",
+      "path": "assets/shopify/products-WeganskiTrener-WeganskiePosilki-Ponad30najlepszychroslinnychautorskichprzepisowpo400kcal_1.png",
+      "kind": "image",
+      "shopifyId": "gid://shopify/MediaImage/34774086287625",
+      "width": 755,
+      "height": 755,
+      "bytes": 714046,
+      "sha256": "cf75f74450ed51222c6722fc715cd901549b2f5b8686a907ca847e1c41c688e0"
+    },
+    {
+      "source": "https://cdn.shopify.com/s/files/1/0660/2499/7129/files/MIKE-3.jpg?v=1672068480",
+      "path": "assets/shopify/files-MIKE-3.jpg",
+      "kind": "image",
+      "shopifyId": "gid://shopify/MediaImage/34774151627017",
+      "width": 4928,
+      "height": 3264,
+      "bytes": 765961,
+      "sha256": "aac19130d160c1e4ad41ef7eaf31f4ebff511396b44df29894ea1bbf33cda126"
+    },
+    {
+      "source": "https://cdn.shopify.com/s/files/1/0660/2499/7129/files/youtube-sesja.png?v=1672072091",
+      "path": "assets/shopify/files-youtube-sesja.png",
+      "kind": "image",
+      "shopifyId": "gid://shopify/MediaImage/34774620995849",
+      "width": 3302,
+      "height": 1840,
+      "bytes": 2896458,
+      "sha256": "dabf9521cbc1ea94a096567931ff78375f5df4d5db846bee09d6331c840a0736"
+    },
+    {
+      "source": "https://cdn.shopify.com/s/files/1/0660/2499/7129/products/MIKE-3.jpg?v=1672145121",
+      "path": "assets/shopify/products-MIKE-3.jpg",
+      "kind": "image",
+      "shopifyId": "gid://shopify/MediaImage/34786076164361",
+      "width": 2702,
+      "height": 2702,
+      "bytes": 610754,
+      "sha256": "d35a424b626ca8c9a63b707a897268e134debd5985417ed5697a098bf308bc1b"
+    },
+    {
+      "source": "https://cdn.shopify.com/s/files/1/0660/2499/7129/products/MIKE-2.jpg?v=1672154273",
+      "path": "assets/shopify/products-MIKE-2.jpg",
+      "kind": "image",
+      "shopifyId": "gid://shopify/MediaImage/34787668427017",
+      "width": 3209,
+      "height": 3209,
+      "bytes": 833003,
+      "sha256": "81e93fbe1240ae37cad092708250e9f275177b61caeb9d904c94e3f9beb058ff"
+    },
+    {
+      "source": "https://cdn.shopify.com/s/files/1/0660/2499/7129/products/MIKE-4.jpg?v=1672155940",
+      "path": "assets/shopify/products-MIKE-4.jpg",
+      "kind": "image",
+      "shopifyId": "gid://shopify/MediaImage/34788011147529",
+      "width": 2952,
+      "height": 2952,
+      "bytes": 783076,
+      "sha256": "4d07a2b07ff025b8a5cc35e0bad48c89d6c4c77ce8663a56d2af23b802dc61d7"
+    },
+    {
+      "source": "https://cdn.shopify.com/s/files/1/0660/2499/7129/products/320476902_534190885319702_178595481274506831_n.jpg?v=1672156722",
+      "path": "assets/shopify/products-320476902_534190885319702_178595481274506831_n.jpg",
+      "kind": "image",
+      "shopifyId": "gid://shopify/MediaImage/34788161323273",
+      "width": 1373,
+      "height": 1373,
+      "bytes": 153428,
+      "sha256": "d741d2f4ea19a1d9d6d22767d9aa68144896c8da0fae5bf209afc031f2cc8acf"
+    },
+    {
+      "source": "https://cdn.shopify.com/s/files/1/0660/2499/7129/products/image.jpg?v=1672245684",
+      "path": "assets/shopify/products-image.jpg",
+      "kind": "image",
+      "shopifyId": "gid://shopify/MediaImage/34798814036233",
+      "width": 3450,
+      "height": 3450,
+      "bytes": 664012,
+      "sha256": "c381a5400e668cff9c6cc1a5be364a25cc82f1a5db0530406423120d98248b7c"
+    },
+    {
+      "source": "https://cdn.shopify.com/s/files/1/0660/2499/7129/products/MIKE-1.jpg?v=1672247345",
+      "path": "assets/shopify/products-MIKE-1.jpg",
+      "kind": "image",
+      "shopifyId": "gid://shopify/MediaImage/34804877459721",
+      "width": 3402,
+      "height": 3402,
+      "bytes": 1332606,
+      "sha256": "cad30007e42f1bf896ebff60348784ffe37b387efa0da37473c8ce9717b5456f"
+    },
+    {
+      "source": "https://cdn.shopify.com/s/files/1/0660/2499/7129/files/MIKE-3_213c92d2-efe4-4506-badb-69d2c295bd3d.jpg?v=1672258018",
+      "path": "assets/shopify/files-MIKE-3_213c92d2-efe4-4506-badb-69d2c295bd3d.jpg",
+      "kind": "image",
+      "shopifyId": "gid://shopify/MediaImage/34807419470089",
+      "width": 4928,
+      "height": 3264,
+      "bytes": 765961,
+      "sha256": "aac19130d160c1e4ad41ef7eaf31f4ebff511396b44df29894ea1bbf33cda126"
+    },
+    {
+      "source": "https://cdn.shopify.com/s/files/1/0660/2499/7129/files/logo_MACZFIT.png?v=1673277594",
+      "path": "assets/shopify/files-logo_MACZFIT.png",
+      "kind": "image",
+      "shopifyId": "gid://shopify/MediaImage/34967067951369",
+      "width": 183,
+      "height": 191,
+      "bytes": 7627,
+      "sha256": "0c5e1ea106f5f045bc30b8f43a9d412955651e2456895f97483141e964164270"
+    },
+    {
+      "source": "https://cdn.shopify.com/s/files/1/0660/2499/7129/files/MaczFit.jpg?v=1673277774",
+      "path": "assets/shopify/files-MaczFit.jpg",
+      "kind": "image",
+      "shopifyId": "gid://shopify/MediaImage/34967118709001",
+      "width": 256,
+      "height": 256,
+      "bytes": 6868,
+      "sha256": "bfa2fd1538d0d7ebaeedcb5a41315f71e1a43cae1c4914e5b19b5c123393ae91"
+    },
+    {
+      "source": "https://cdn.shopify.com/s/files/1/0660/2499/7129/files/Wypas.png?v=1673278063",
+      "path": "assets/shopify/files-Wypas.png",
+      "kind": "image",
+      "shopifyId": "gid://shopify/MediaImage/34967189258505",
+      "width": 851,
+      "height": 315,
+      "bytes": 472400,
+      "sha256": "c7a9eda4c5ee3c948f0650c62472c8673bd3d048a030e462f6cdd2aa50e6921e"
+    },
+    {
+      "source": "https://cdn.shopify.com/s/files/1/0660/2499/7129/files/Powolnosc.png?v=1673278358",
+      "path": "assets/shopify/files-Powolnosc.png",
+      "kind": "image",
+      "shopifyId": "gid://shopify/MediaImage/34967253352713",
+      "width": 400,
+      "height": 166,
+      "bytes": 13149,
+      "sha256": "5652045e2d31e8b777ab2eeea0e22f96703bf1e12db07069da6fe3e784fb0d1d"
+    },
+    {
+      "source": "https://cdn.shopify.com/s/files/1/0660/2499/7129/files/Powolnosc.jpg?v=1673278368",
+      "path": "assets/shopify/files-Powolnosc.jpg",
+      "kind": "image",
+      "shopifyId": "gid://shopify/MediaImage/34967255286025",
+      "width": 1920,
+      "height": 1280,
+      "bytes": 383221,
+      "sha256": "257f384fc34ae40519e22b2a76d9dd9fe8e2784b160deab4a4ef916016391528"
+    },
+    {
+      "source": "https://cdn.shopify.com/s/files/1/0660/2499/7129/files/SzczawIMirabelki.jpg?v=1673278516",
+      "path": "assets/shopify/files-SzczawIMirabelki.jpg",
+      "kind": "image",
+      "shopifyId": "gid://shopify/MediaImage/34967294148873",
+      "width": 2048,
+      "height": 1478,
+      "bytes": 428778,
+      "sha256": "fb16eefab3d85a145f044b07e8fc3e098e5b22cfe5a0a742f915f51160b9e106"
+    },
+    {
+      "source": "https://mikemilekfitness.com/cdn/fonts/archivo_narrow/archivonarrow_i4.59445c13f0e607542640c8a56f31dcd8ed680cfa.woff2",
+      "path": "assets/fonts/archivonarrow_i4.59445c13f0e607542640c8a56f31dcd8ed680cfa.woff2",
+      "kind": "font",
+      "bytes": 14144,
+      "sha256": "dff949b4497e29ea4004e385fd7ff2f66077cc903ff954b3fc3b2fe5ad5a076d"
+    },
+    {
+      "source": "https://mikemilekfitness.com/cdn/fonts/archivo_narrow/archivonarrow_i7.394cd4c9437ad9084e13f72957e92bfbe366a689.woff2",
+      "path": "assets/fonts/archivonarrow_i7.394cd4c9437ad9084e13f72957e92bfbe366a689.woff2",
+      "kind": "font",
+      "bytes": 14228,
+      "sha256": "4dfea0ebce6edfbb7580546cf469438a379eede3f98e2a700446dd659cf7b0d5"
+    },
+    {
+      "source": "https://mikemilekfitness.com/cdn/fonts/archivo_narrow/archivonarrow_n4.5c3bab850a22055c235cf940f895d873a8689d70.woff2",
+      "path": "assets/fonts/archivonarrow_n4.5c3bab850a22055c235cf940f895d873a8689d70.woff2",
+      "kind": "font",
+      "bytes": 12780,
+      "sha256": "2c25c93151a65c6b299da81a78826962ddccb89eaf947c2dfa7a219dbb7bdcf8"
+    },
+    {
+      "source": "https://mikemilekfitness.com/cdn/fonts/archivo_narrow/archivonarrow_n7.c049bee49aa92b4cfee86dd4e79c9194b8519e2b.woff2",
+      "path": "assets/fonts/archivonarrow_n7.c049bee49aa92b4cfee86dd4e79c9194b8519e2b.woff2",
+      "kind": "font",
+      "bytes": 12852,
+      "sha256": "4b03a6723cdb31cf592feb2205a85b6f1a026ff6601572ef39106821c3acb9c6"
+    },
+    {
+      "source": "https://mikemilekfitness.com/cdn/shop/products/hqdefault_e9333603-22e6-49b8-b6ca-57b8394c27c2.jpg?v=1672154230",
+      "path": "assets/shopify/products-hqdefault.jpg",
+      "kind": "image",
+      "bytes": 17743,
+      "sha256": "e4df701468af1dc98a0a2829cb79cda5d7e74c5dc3bcf1f843b1516a3d79df7d"
+    }
+  ]
+}

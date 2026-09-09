@@ -1,0 +1,14 @@
+{
+  "siteName": "Wegański Trener",
+  "baseUrl": "https://mieszkomilek.github.io/strona-mikemilekfitness/",
+  "productionUrl": "https://mikemilekfitness.com/",
+  "language": "pl",
+  "email": "mieszkomilek@gmail.com",
+  "indexingEnabled": false,
+  "pages": [
+    "index.html"
+  ],
+  "paypalUrl": "https://www.paypal.com/ncp/payment/7JL9X24RW64Q8",
+  "paypalSource": "mieszkomilek/strona-ewamilek/index.html (odczyt 2026-09-09)",
+  "themeColor": "#000000"
+}
