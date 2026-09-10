@@ -1,0 +1,120 @@
+{
+  "weganskie-przepisy": {
+    "title": "Wegańskie przepisy 400 kcal — e-book",
+    "description": "Ponad 30 autorskich wegańskich przepisów po około 400 kcal na posiłek, z opisami i informacjami o białku, tłuszczu oraz węglowodanach.",
+    "faq": [
+      [
+        "Co zawiera e-book?",
+        "Ponad 30 autorskich wegańskich przepisów po około 400 kcal na posiłek oraz informacje o ilości węglowodanów, białka i tłuszczu."
+      ]
+    ],
+    "related": [
+      "dieta-spersonalizowany-plan-na-modelowanie-sylwetki-ebook-video",
+      "prowadzenie-przez-internet"
+    ]
+  },
+  "dieta-spersonalizowany-plan-na-modelowanie-sylwetki-ebook-video": {
+    "title": "Spersonalizowany plan diety na miesiąc",
+    "description": "Plan diety na miesiąc: ponad 30 posiłków do wyboru, kaloryczność dopasowana do celu i preferowana liczba posiłków od 1 do 6 dziennie.",
+    "faq": [
+      [
+        "Na jaki okres przygotowany jest plan?",
+        "Plan diety jest przygotowany na 1 miesiąc."
+      ],
+      [
+        "Jakie informacje są potrzebne?",
+        "Preferowana liczba posiłków, wiek, wzrost, waga, płeć, rodzaj pracy oraz częstotliwość i rodzaj treningów."
+      ]
+    ],
+    "related": [
+      "karta-prezentowa-weganski-trener",
+      "barki-autorskie-cwiczenia-ebook-video"
+    ]
+  },
+  "karta-prezentowa-weganski-trener": {
+    "title": "Karta prezentowa — nominały 10–400 zł",
+    "description": "Karta prezentowa MikeMilekFitness ważna przez 6 miesięcy. Dostępne nominały: 10, 25, 50, 100, 200 i 400 zł.",
+    "faq": [
+      [
+        "Jak długo ważna jest karta?",
+        "Kartę można wykorzystać w ciągu 6 miesięcy."
+      ]
+    ],
+    "related": [
+      "prowadzenie-przez-internet",
+      "trening-personalny-na-silowni"
+    ]
+  },
+  "prowadzenie-przez-internet": {
+    "title": "Prowadzenie online i konsultacje telefoniczne",
+    "description": "Prowadzenie przez WhatsApp z dietą, treningiem i monitorowaniem postępów lub konsultacja telefoniczna o diecie roślinnej i kształtowaniu sylwetki.",
+    "faq": [
+      [
+        "Co obejmuje prowadzenie online?",
+        "Przygotowanie diety i treningu pod Twój cel oraz monitorowanie postępów przez chat WhatsApp."
+      ],
+      [
+        "Ile trwa konsultacja telefoniczna?",
+        "Dostępne są konsultacje trwające 15 albo 30 minut."
+      ]
+    ],
+    "related": [
+      "barki-autorskie-cwiczenia-ebook-video",
+      "trening-spersonalizowany-plan-modelowanie-sylwetki-ebook-video"
+    ]
+  },
+  "barki-autorskie-cwiczenia-ebook-video": {
+    "title": "Autorskie ćwiczenia — e-book i wideo",
+    "description": "Autorskie ćwiczenia na siłownię: opisy, 4 zdjęcia wykonania i kody QR do wideo. Warianty na poszczególne partie ciała lub wszystkie.",
+    "faq": [
+      [
+        "Jak przedstawione są ćwiczenia?",
+        "Każde ćwiczenie zawiera 4 zdjęcia, opis wykonania i kod QR prowadzący do prezentacji wideo."
+      ],
+      [
+        "Jak dostarczane są materiały?",
+        "Dostawa odbywa się przez e-mail."
+      ]
+    ],
+    "related": [
+      "trening-personalny-na-silowni",
+      "weganskie-przepisy"
+    ]
+  },
+  "trening-personalny-na-silowni": {
+    "title": "Trening personalny na siłowni w Poznaniu",
+    "description": "Trening personalny na siłowni w Poznaniu: 1 godzina za 125 zł lub 5 treningów po godzinie za 530 zł. Warianty dla kobiet i mężczyzn.",
+    "faq": [
+      [
+        "Gdzie odbywają się treningi?",
+        "Na siłowni w Poznaniu."
+      ],
+      [
+        "Jakie pakiety są dostępne?",
+        "Jeden trening trwający 1 godzinę lub pakiet 5 treningów po 1 godzinie."
+      ]
+    ],
+    "related": [
+      "trening-spersonalizowany-plan-modelowanie-sylwetki-ebook-video",
+      "dieta-spersonalizowany-plan-na-modelowanie-sylwetki-ebook-video"
+    ]
+  },
+  "trening-spersonalizowany-plan-modelowanie-sylwetki-ebook-video": {
+    "title": "Spersonalizowany plan treningowy na miesiąc",
+    "description": "Plan treningowy na miesiąc pod Twój cel. Ćwiczenia z ciężarami zawierają 4 zdjęcia, fachowy opis i kod QR do prezentacji wideo.",
+    "faq": [
+      [
+        "Na jaki okres przygotowany jest plan?",
+        "Plan treningowy jest przygotowany na 1 miesiąc."
+      ],
+      [
+        "Co zawiera opis ćwiczenia z ciężarami?",
+        "4 zdjęcia przedstawiające wykonanie, fachowy opis i kod QR do prezentacji wideo."
+      ]
+    ],
+    "related": [
+      "weganskie-przepisy",
+      "karta-prezentowa-weganski-trener"
+    ]
+  }
+}

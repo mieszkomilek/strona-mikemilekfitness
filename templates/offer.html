@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="pl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{{SEO_TITLE}}</title><meta name="description" content="{{DESCRIPTION}}"><meta name="robots" content="{{ROBOTS}}">
+<link rel="canonical" href="{{URL}}"><meta property="og:url" content="{{URL}}"><meta property="og:title" content="{{SEO_TITLE}}"><meta property="og:description" content="{{DESCRIPTION}}"><meta property="og:type" content="website"><meta property="og:image" content="{{OG_IMAGE}}">
+<link rel="icon" href="assets/favicon.svg"><link rel="stylesheet" href="styles.css?v={{VERSION}}"><link rel="stylesheet" href="mobile-home.css?v={{VERSION}}"><link rel="stylesheet" href="offer.css?v={{VERSION}}"></head>
+<body><main class="page-width simple-page offer-detail-page">
+<nav aria-label="Nawigacja"><a href="./">MikeMilekFitness</a> · <a href="oferta.html">Wszystkie oferty</a> · <a href="kontakt.html">Kontakt</a></nav>
+<div class="offer-detail"><img class="offer-cover" src="{{IMAGE}}" alt="{{TITLE}} — zdjęcie oferty" width="600" height="600">
+<div><h1>{{TITLE}}</h1><p class="offer-price">{{PRICE}}</p><section aria-labelledby="description-title"><h2 id="description-title">Opis oferty</h2><div id="source-description">{{BODY}}</div></section>
+<section aria-labelledby="variants-title"><h2 id="variants-title">Warianty i ceny</h2><table><thead><tr><th scope="col">Wariant</th><th scope="col">Cena</th></tr></thead><tbody>{{VARIANTS}}</tbody></table></section>
+<a class="buy" data-sales-link href="{{PAYPAL}}">Przejdź do PayPal</a><p class="payment-note">Wspólny link PayPal nie przekazuje wyboru oferty ani wariantu. <a href="kontakt.html">Napisz do mnie, aby ustalić wariant i kwotę przed płatnością.</a></p></div></div>
+<section class="offer-faq" aria-labelledby="faq-title"><h2 id="faq-title">Pytania o ofertę</h2>{{FAQ}}</section>
+<section class="related-offers" aria-labelledby="related-title"><h2 id="related-title">Zobacz również</h2><ul>{{RELATED}}</ul></section>
+<p><a href="kontakt.html">Kontakt i pytania o ofertę</a></p></main></body></html>

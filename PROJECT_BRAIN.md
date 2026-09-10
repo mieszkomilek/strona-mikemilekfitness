@@ -53,3 +53,15 @@ Link Kontakt w nagłówku prowadzi do `kontakt.html`. Dodano lokalne `prywatnosc
 
 ## Decyzje wersji 1.08
 Każda z siedmiu ofert ma własną podstronę opartą na handle produktu. Karty na stronie głównej prowadzą do szczegółów, a osobny przycisk prowadzi do wspólnego PayPal. Opisy są celowo ogólne do czasu potwierdzenia pełnych treści i dostawy cyfrowej.
+
+## Decyzje i audyt wersji 1.09 — 2026-09-10
+- Przed SEO technicznym wykonano ponowny odczyt siedmiu produktów przez Shopify search_products/get_product. Źródło: data/offer-source-2026-09-10.json, bez danych klientów i stanów magazynowych.
+- Wersja 1.08 nie była pełną migracją opisów: zawierała identyczny tekst zastępczy i niepotwierdzone „Wariant ustalany indywidualnie”. Usunięto oba; przywrócono pełne opisy i 29 wariantów z cenami. Ceny początkowe były zgodne.
+- Treść opisów pozostaje identyczna po usunięciu znaczników edytora i normalizacji odstępów; jedyna zmiana słowna w opisach: Wegański Trener → MikeMilekFitness w karcie prezentowej, zgodnie z dyspozycją użytkownika. Nazwy i ceny wariantów zachowane, również nietypowe 35 zł dla treningu ciężary + cardio. Nie korygować ich na podstawie domysłów.
+- FAQ i indywidualne metadane SEO są redakcyjnymi skrótami potwierdzonych opisów i wariantów; nie dodano terminów realizacji, gwarancji wyników ani automatycznej dostawy. Materiały ebook/video to opisy sprzedawanych produktów; prywatnych plików nie publikujemy.
+- Główna: opis i misję skrócono do faktów z oryginału; osobista historia wieku i weganizmu pochodzi od użytkownika. Nagłówek ofert „Najczęściej kupowane w tym tygodniu” zastąpiono neutralnym, ponieważ statyczny katalog nie korzysta z tygodniowych statystyk.
+- Ikony SVG Instagram/Facebook/e-mail w nagłówku i stopce są osadzone lokalnie, z tekstem dostępnym dla czytników. Kontakt w stopce prowadzi do kontakt.html; osobny e-mail pozostaje mailto.
+- Wspólny PayPal pozostaje bez zmian. Strony jawnie wyjaśniają brak przekazywania wariantu/kwoty i odsyłają do kontaktu przed płatnością.
+- oferta.html jest generowana jako pełny katalog i trafia do _site, co naprawia niedziałający link z ofert.
+- Podgląd nadal noindex; bez zmiany domeny, DNS, mapy indeksowania i bez rozpoczęcia punktu 3. Testy weryfikują wszystkie lokalne linki i zgodność opisów ze snapshotem.
+- Raport porównawczy: CONTENT_AUDIT.md. Audyt treści w tym etapie dotyczy strony głównej i siedmiu ofert, nie potwierdza zgodności stron prawnych ani Partnerów.

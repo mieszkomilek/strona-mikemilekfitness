@@ -3,6 +3,7 @@ from pathlib import Path
 from html.parser import HTMLParser
 from urllib.parse import urlsplit,unquote
 import json,re,hashlib,xml.etree.ElementTree as ET
+from offer_qa import check_offers
 R=Path(__file__).resolve().parents[1]
 class Page(HTMLParser):
  def __init__(self):super().__init__();self.tags=[]
@@ -33,4 +34,5 @@ def check():
  ET.parse(root/'sitemap.xml');json.loads((root/'manifest.webmanifest').read_text())
  assert not (root/'data').exists() and not (root/'.github').exists()
  print(f'PASS: HTML, local links, {len(sales)} PayPal links, {len(assets)} media hashes, SEO, public artifact')
+ check_offers(R,Page)
 if __name__=='__main__':check()

@@ -6,7 +6,15 @@
     "price": "35.0",
     "currency": "PLN",
     "priceFrom": false,
-    "image": "assets/shopify/products-WeganskiTrener-WeganskiePosilki-Ponad30najlepszychroslinnychautorskichprzepisowpo400kcal_1.png"
+    "image": "assets/shopify/products-WeganskiTrener-WeganskiePosilki-Ponad30najlepszychroslinnychautorskichprzepisowpo400kcal_1.png",
+    "variants": [
+      {
+        "id": "gid://shopify/ProductVariant/43890441060617",
+        "title": "Default Title",
+        "price": "35.00"
+      }
+    ],
+    "sourceSnapshot": "data/offer-source-2026-09-10.json"
   },
   {
     "id": "gid://shopify/Product/8071250313481",
@@ -15,7 +23,20 @@
     "price": "125.0",
     "currency": "PLN",
     "priceFrom": false,
-    "image": "assets/shopify/products-320476902_534190885319702_178595481274506831_n.jpg"
+    "image": "assets/shopify/products-320476902_534190885319702_178595481274506831_n.jpg",
+    "variants": [
+      {
+        "id": "gid://shopify/ProductVariant/43893949399305",
+        "title": "Odchudzanie - Rzeźba - Redukcja  - Utrata Wagi",
+        "price": "125.00"
+      },
+      {
+        "id": "gid://shopify/ProductVariant/43893949497609",
+        "title": "Przybieranie Mięśni",
+        "price": "125.00"
+      }
+    ],
+    "sourceSnapshot": "data/offer-source-2026-09-10.json"
   },
   {
     "id": "gid://shopify/Product/8071137263881",
@@ -24,7 +45,40 @@
     "price": "10.0",
     "currency": "PLN",
     "priceFrom": true,
-    "image": "assets/shopify/products-MIKE-3.jpg"
+    "image": "assets/shopify/products-MIKE-3.jpg",
+    "variants": [
+      {
+        "id": "gid://shopify/ProductVariant/43893312258313",
+        "title": "10,00 zł",
+        "price": "10.00"
+      },
+      {
+        "id": "gid://shopify/ProductVariant/43893312291081",
+        "title": "25,00 zł",
+        "price": "25.00"
+      },
+      {
+        "id": "gid://shopify/ProductVariant/43893312323849",
+        "title": "50,00 zł",
+        "price": "50.00"
+      },
+      {
+        "id": "gid://shopify/ProductVariant/43893312356617",
+        "title": "100,00 zł",
+        "price": "100.00"
+      },
+      {
+        "id": "gid://shopify/ProductVariant/43893312389385",
+        "title": "200,00 zł",
+        "price": "200.00"
+      },
+      {
+        "id": "gid://shopify/ProductVariant/43893312422153",
+        "title": "400,00 zł",
+        "price": "400.00"
+      }
+    ],
+    "sourceSnapshot": "data/offer-source-2026-09-10.json"
   },
   {
     "id": "gid://shopify/Product/8071957774601",
@@ -33,7 +87,30 @@
     "price": "80.0",
     "currency": "PLN",
     "priceFrom": true,
-    "image": "assets/shopify/products-image.jpg"
+    "image": "assets/shopify/products-image.jpg",
+    "variants": [
+      {
+        "id": "gid://shopify/ProductVariant/43898856603913",
+        "title": "Prowadzenie online ( chat WhatsUp ) / 1 miesiąc ( prowadzenie online )",
+        "price": "440.00"
+      },
+      {
+        "id": "gid://shopify/ProductVariant/43898856636681",
+        "title": "Prowadzenie online ( chat WhatsUp ) / 3 miesiące ( prowadzenie online )",
+        "price": "620.00"
+      },
+      {
+        "id": "gid://shopify/ProductVariant/43898856669449",
+        "title": "Konsultacja telefoniczna / 15 minut ( telefon )",
+        "price": "80.00"
+      },
+      {
+        "id": "gid://shopify/ProductVariant/43898856702217",
+        "title": "Konsultacja telefoniczna / 30 minut ( telefon )",
+        "price": "125.00"
+      }
+    ],
+    "sourceSnapshot": "data/offer-source-2026-09-10.json"
   },
   {
     "id": "gid://shopify/Product/8071176618249",
@@ -42,7 +119,50 @@
     "price": "35.0",
     "currency": "PLN",
     "priceFrom": true,
-    "image": "assets/shopify/products-MIKE-2.jpg"
+    "image": "assets/shopify/products-MIKE-2.jpg",
+    "variants": [
+      {
+        "id": "gid://shopify/ProductVariant/43893870559497",
+        "title": "Wszystkie",
+        "price": "135.00"
+      },
+      {
+        "id": "gid://shopify/ProductVariant/43893797421321",
+        "title": "Pośladki",
+        "price": "35.00"
+      },
+      {
+        "id": "gid://shopify/ProductVariant/43893797454089",
+        "title": "Nogi",
+        "price": "35.00"
+      },
+      {
+        "id": "gid://shopify/ProductVariant/43893797486857",
+        "title": "Brzuch",
+        "price": "35.00"
+      },
+      {
+        "id": "gid://shopify/ProductVariant/43893797519625",
+        "title": "Ramiona",
+        "price": "35.00"
+      },
+      {
+        "id": "gid://shopify/ProductVariant/43893797552393",
+        "title": "Barki",
+        "price": "35.00"
+      },
+      {
+        "id": "gid://shopify/ProductVariant/43893797585161",
+        "title": "Klatka piersiowa",
+        "price": "35.00"
+      },
+      {
+        "id": "gid://shopify/ProductVariant/43893797617929",
+        "title": "Plecy",
+        "price": "35.00"
+      }
+    ],
+    "sourceSnapshot": "data/offer-source-2026-09-10.json"
   },
   {
     "id": "gid://shopify/Product/8072377172233",
@@ -51,7 +171,30 @@
     "price": "125.0",
     "currency": "PLN",
     "priceFrom": true,
-    "image": "assets/shopify/products-MIKE-1.jpg"
+    "image": "assets/shopify/products-MIKE-1.jpg",
+    "variants": [
+      {
+        "id": "gid://shopify/ProductVariant/43898777567497",
+        "title": "1 trening (1h) / Jestem kobietą / Poznań - Siłownia",
+        "price": "125.00"
+      },
+      {
+        "id": "gid://shopify/ProductVariant/44705835876617",
+        "title": "1 trening (1h) / Jestem mężczyzną / Poznań - Siłownia",
+        "price": "125.00"
+      },
+      {
+        "id": "gid://shopify/ProductVariant/44705835909385",
+        "title": "5 treningów (5 x 1h) / Jestem kobietą / Poznań - Siłownia",
+        "price": "530.00"
+      },
+      {
+        "id": "gid://shopify/ProductVariant/44705835942153",
+        "title": "5 treningów (5 x 1h) / Jestem mężczyzną / Poznań - Siłownia",
+        "price": "530.00"
+      }
+    ],
+    "sourceSnapshot": "data/offer-source-2026-09-10.json"
   },
   {
     "id": "gid://shopify/Product/8071239401737",
@@ -60,6 +203,29 @@
     "price": "35.0",
     "currency": "PLN",
     "priceFrom": true,
-    "image": "assets/shopify/products-MIKE-4.jpg"
+    "image": "assets/shopify/products-MIKE-4.jpg",
+    "variants": [
+      {
+        "id": "gid://shopify/ProductVariant/43893881471241",
+        "title": "Odchudzanie - Rzeźba - Redukcja  - Utrata Wagi / Trening z ciężarami",
+        "price": "125.00"
+      },
+      {
+        "id": "gid://shopify/ProductVariant/43893920465161",
+        "title": "Odchudzanie - Rzeźba - Redukcja  - Utrata Wagi / Trening cardio ( np bieganie lub rower )",
+        "price": "125.00"
+      },
+      {
+        "id": "gid://shopify/ProductVariant/43893920497929",
+        "title": "Odchudzanie - Rzeźba - Redukcja  - Utrata Wagi / Trening z ciężąrami oraz cardio",
+        "price": "35.00"
+      },
+      {
+        "id": "gid://shopify/ProductVariant/43893881536777",
+        "title": "Przybieranie Mięśni / Trening z ciężarami",
+        "price": "125.00"
+      }
+    ],
+    "sourceSnapshot": "data/offer-source-2026-09-10.json"
   }
 ]

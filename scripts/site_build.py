@@ -2,6 +2,7 @@
 from pathlib import Path
 from html import escape
 import json,shutil
+from offer_pages import render_offers
 R=Path(__file__).resolve().parents[1]
 def build():
  c=json.loads((R/'site.config.json').read_text());h=json.loads((R/'data/home.json').read_text());catalog=json.loads((R/'data/catalog.json').read_text());v=(R/'version.txt').read_text().strip();cards=[]
@@ -14,6 +15,7 @@ def build():
  for k,val in values.items():page=page.replace('{{'+k+'}}',escape(val,quote=True))
  page=page.replace('{{INTRO_HTML}}',h['introHtml']).replace('{{PRODUCTS}}','\n'.join(cards));assert '{{' not in page
  (R/'index.html').write_text(page)
+ render_offers(R,c,catalog,v,cards)
  (R/'robots.txt').write_text('User-agent: *\nAllow: /\nSitemap: '+c['baseUrl']+'sitemap.xml\n')
  urls='<url><loc>'+escape(c['baseUrl'])+'</loc></url>' if c['indexingEnabled'] else ''
  (R/'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+urls+'</urlset>\n')
@@ -21,7 +23,7 @@ def build():
  dest=R/'_site'
  if dest.exists():shutil.rmtree(dest)
  dest.mkdir()
- for name in ['index.html','kontakt.html','partnerzy.html','warunki.html','zwroty.html','prywatnosc.html','wysylka.html'] + [p['handle']+'.html' for p in catalog] + ['styles.css','mobile-home.css','video.css','social.css','robots.txt','sitemap.xml','manifest.webmanifest','version.txt','.nojekyll']:shutil.copy2(R/name,dest/name)
+ for name in ['index.html','oferta.html','kontakt.html','partnerzy.html','warunki.html','zwroty.html','prywatnosc.html','wysylka.html'] + [p['handle']+'.html' for p in catalog] + ['offer.css','styles.css','mobile-home.css','video.css','social.css','robots.txt','sitemap.xml','manifest.webmanifest','version.txt','.nojekyll']:shutil.copy2(R/name,dest/name)
  shutil.copytree(R/'assets',dest/'assets')
  print(f'Built version {v}: {len(catalog)} offers')
 if __name__=='__main__':build()

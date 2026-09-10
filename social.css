@@ -1,1 +1,4 @@
 .social-links{display:flex;gap:16px;margin-left:auto}.social-links a{font-size:14px;text-decoration:none;color:var(--muted)}.social-links a:hover{text-decoration:underline;color:#fff}@media(max-width:989px){.social-links{display:none}}
+.contact-icon{flex-shrink:0;vertical-align:middle}.social-links a{display:inline-flex;align-items:center;justify-content:center;gap:7px;min-width:44px;min-height:44px}.social-links a span{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}.footer-grid a:has(.contact-icon){display:flex;align-items:center;gap:10px;min-height:44px}.header-inner{gap:20px}.social-links{gap:4px}@media(min-width:990px){.header-inner{padding-inline:24px}.header nav{gap:16px}.brand-wordmark{font-size:23px}}
+
+@media(min-width:750px){.menu-toggle{display:none}}
