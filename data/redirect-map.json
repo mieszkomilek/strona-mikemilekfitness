@@ -1,0 +1,20 @@
+{
+  "pages/contact": "kontakt.html",
+  "pages/partnerzy": "partnerzy.html",
+  "collections/all": "oferta.html",
+  "policies/terms-of-service": "warunki.html",
+  "policies/refund-policy": "zwroty.html",
+  "policies/privacy-policy": "prywatnosc.html",
+  "policies/shipping-policy": "wysylka.html",
+  "policies/legal-notice": "nota-prawna.html",
+  "policies/contact-information": "kontakt.html",
+  "products/weganskie-przepisy": "weganskie-przepisy.html",
+  "products/dieta-spersonalizowany-plan-na-modelowanie-sylwetki-ebook-video": "dieta-spersonalizowany-plan-na-modelowanie-sylwetki-ebook-video.html",
+  "products/karta-prezentowa-weganski-trener": "karta-prezentowa-weganski-trener.html",
+  "products/prowadzenie-przez-internet": "prowadzenie-przez-internet.html",
+  "products/barki-autorskie-cwiczenia-ebook-video": "barki-autorskie-cwiczenia-ebook-video.html",
+  "products/trening-personalny-na-silowni": "trening-personalny-na-silowni.html",
+  "products/trening-spersonalizowany-plan-modelowanie-sylwetki-ebook-video": "trening-spersonalizowany-plan-modelowanie-sylwetki-ebook-video.html",
+  "collections/frontpage": "oferta.html",
+  "blogs/news": "aktualnosci.html"
+}

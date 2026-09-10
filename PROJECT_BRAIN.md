@@ -1,4 +1,12 @@
 # PROJECT_BRAIN — MikeMilekFitness
+## Bieżący stan — wersja 1.10, 2026-09-10
+Użytkownik zlecił domknięcie migracji, łącznie z domeną/GitHub Pages, ale wyłączył zmiany PayPal. Poprzedni zakaz DNS w AGENTS.md został odpowiednio uaktualniony.
+Przygotowano pełne źródła polityk (data/policies-source-2026-09-10.json), przywrócono pełny regulamin, zwroty, wysyłkę i notę prawną. Zmiany redakcyjne: marka, domena, kontakt oraz wskazany PayPal. Nie certyfikowano zgodności prawnej oryginałów. Polityka prywatności to jawnie dostosowany opis działania statycznej strony, bez rejestracji i newslettera; jej pełna wersja prawna wymaga danych administratora i zasad retencji, których nie zgadujemy.
+Partnerzy: potwierdzono cztery marki, kod Maczfit i adresy w źródle; uzupełniono brakujący adres Wypasu. Blog News jest pusty — dodano lokalne Aktualności bez wpisów. Kontakt e-mail i telefon potwierdzają również dane źródłowe sklepu; WhatsApp jest dyspozycją użytkownika.
+SEO: jedna canonical i robots na każdej stronie, WebPage/WebSite JSON-LD bez fikcyjnych ocen i gwarancji, pełna sitemap przy indexingEnabled=true. Obecny podgląd pozostaje noindex. Test trybu produkcyjnego działa w katalogu tymczasowym.
+18 dawnych ścieżek ma lokalne strony przejścia (meta refresh i link), a nie HTTP 301; DNS nie mapuje ścieżek. Dodano 404. GitHub Actions nie pobiera już zasobów z Shopify: import_media.py --offline tylko weryfikuje repo.
+Plan DNS wraz z rekordami przed/po i rollbackiem: DOMAIN_CUTOVER.md. Panel GitHub Pages w przeglądarce pokazał brak zalogowania; konektor nie udostępnia ustawienia domeny. Oczekujemy operatora panelu DNS. Nie zmieniono DNS, custom domain, indeksowania produkcji ani Shopify. Search Console, eksport prywatnych danych/płatnych materiałów i wyłączenie Shopify pozostają do wykonania po uzyskaniu dostępu i przełączeniu. Archiwum publicznej strony nie jest pełnym backupem sklepu.
+
 ## Cel i zakres
 Migracja mikemilekfitness.com z Shopify do mieszkomilek/strona-mikemilekfitness. Pierwszy etap: samodzielna strona główna, oryginalne media, wspólny link PayPal, GitHub Pages i dokumentacja dla AI.
 Użytkownik wskazał repo strona-ewamilek wyłącznie jako wzór organizacji i źródło istniejącego linku PayPal. Kod, treści i obrazy tego repo nie zostały przeniesione.

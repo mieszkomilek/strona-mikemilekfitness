@@ -12,26 +12,19 @@ jobs:
   build:
     runs-on: ubuntu-latest
     permissions:
-      contents: write
+      contents: read
     steps:
       - uses: actions/checkout@v4
         with:
           ref: main
-      - name: Restore and verify original media
-        run: python3 scripts/import_media.py
-      - name: Save imported media in the repository
-        run: |
-          git add assets/
-          if ! git diff --cached --quiet; then
-            git config user.name 'github-actions[bot]'
-            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-            git commit -m 'Import verified original Shopify media'
-            git push origin HEAD:main
-          fi
+      - name: Verify local media without external downloads
+        run: python3 scripts/import_media.py --offline
       - name: Build static website
         run: python3 scripts/site_build.py
       - name: Validate website and media
         run: python3 scripts/site_qa.py
+      - name: Validate preview and production migration
+        run: python3 scripts/migration_qa.py
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _site

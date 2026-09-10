@@ -1,5 +1,14 @@
 # Audyt treści — 2026-09-10
 
+## Rozszerzenie w 1.10
+Ponownie odczytano wszystkie 6 polityk przez Shopify Admin API. Pełny oryginał: data/policies-source-2026-09-10.json.
+W 1.09 regulamin pomijał m.in. punkty 4, 7, 9, 10 i 12; zwroty pomijały 7 dni roboczych oraz zmieniały punkt o produktach cyfrowych; wysyłka wprowadzała nieźródłowe ogólne ustalenia e-mailem zamiast ośmiu punktów oryginału. W 1.10 przywrócono źródłowe dokumenty, aktualizując markę/domenę/e-mail i wskazany PayPal.
+Oryginały zawierają szerokie wyłączenia odpowiedzialności, brak zwrotów cyfrowych, fizyczną wysyłkę oraz w notce możliwość publikowania treści przez użytkowników. Ich przeniesienie nie stanowi potwierdzenia zgodności z prawem ani aktualnym procesem sprzedaży. Do redakcji prawnej przed finalnym uruchomieniem.
+Polityka prywatności została opisana na podstawie faktycznej implementacji (GitHub Pages, YouTube, e-mail/WhatsApp, PayPal), zamiast przepisywania nieprawdziwej rejestracji i newslettera. Nie dodawano wymyślonych okresów przechowywania ani gwarancji bezpieczeństwa.
+Partnerzy porównani z /pages/partnerzy: Maczfit, Wypas, PoWolność, Szczaw i Mirabelki; brakujący adres Wypasu uzupełniony. Kod rabatowy pochodzi ze strony źródłowej; nie przeprowadzano testowego zamówienia u partnera. Dane Kontakt potwierdzone polityką CONTACT_INFORMATION; WhatsApp na polecenie użytkownika.
+Mapa strony źródłowej zawiera pusty blog /blogs/news, który zachowano jako pustą stronę aktualności. Brak artykułów do migracji.
+Poniższy raport 1.09 jest historyczny; ograniczenie audytu do ofert zastępują ustalenia powyżej.
+
 Porównano wersję GitHub 1.08 (b42d9eba60dac18f7c8c4ab6dceb170640f01b56) z bieżącymi opisami siedmiu produktów pobranymi przez Shopify get_product oraz stroną główną https://mikemilekfitness.com/.
 Źródłowy snapshot produktów: data/offer-source-2026-09-10.json. Żaden zapis w Shopify nie został wykonany.
 
