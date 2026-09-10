@@ -2,7 +2,7 @@
 
 ## Aktualny operator DNS
 
-Panel zarządzania domeną `mikemilekfitness.com` znajduje się w Shopify (Sklep „Wegański Trener” → Domeny → Ustawienia DNS). Shopify nadal zarządza strefą DNS i serwerami nazw, mimo że rekordy strony zostały przełączone na GitHub Pages. Rekordy pocztowe pozostają w tej samej strefie Shopify.
+Do 2026-09-10 panel zarządzania domeną `mikemilekfitness.com` znajdował się w Shopify. 2026-09-10 nameservery przełączono na Cloudflare: `alice.ns.cloudflare.com` i `nile.ns.cloudflare.com`. Strefa Cloudflare ma status Active; rejestracja domeny nadal jest u dotychczasowego rejestratora.
 
 ## Stan odczytany z DNS
 
