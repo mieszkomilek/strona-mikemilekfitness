@@ -1,11 +1,15 @@
 # Przełączenie domeny — stan 2026-09-10
 
+## Aktualny operator DNS
+
+Panel zarządzania domeną `mikemilekfitness.com` znajduje się w Shopify (Sklep „Wegański Trener” → Domeny → Ustawienia DNS). Shopify nadal zarządza strefą DNS i serwerami nazw, mimo że rekordy strony zostały przełączone na GitHub Pages. Rekordy pocztowe pozostają w tej samej strefie Shopify.
+
 ## Stan odczytany z DNS
 
-- NS: ns-cloud-c1/c2/c3/c4.googledomains.com (operator panelu do potwierdzenia).
-- A @: 23.227.38.36.
-- AAAA @: 2620:127:f00f:4::.
-- CNAME www: shops.myshopify.com.
+- NS: ns-cloud-c1/c2/c3/c4.googledomains.com (infrastruktura widoczna przy zarządzaniu przez Shopify).
+- A @: 185.199.108.153 (ustawione w Shopify; pozostałe adresy A GitHub Pages mogą być dodane zgodnie z polityką operatora).
+- AAAA @: brak na zrzucie po zmianie (nie dodawano bez potwierdzenia formularza Shopify).
+- CNAME www: mieszkomilek.github.io (ustawione w Shopify).
 - MX @: 1 mx.mikemilekfitness.com.cust.b.hostedemail.com.
 - TXT SPF @: v=spf1 include:_spf.hostedemail.com ~all.
 
